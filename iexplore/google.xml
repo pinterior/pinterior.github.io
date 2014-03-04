@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ie="http://schemas.microsoft.com/Search/2008/">
+   <ShortName>Google</ShortName>
+   <Image type="image/icon" height="16" width="16">https://www.google.com/favicon.ico</Image>
+   <Description>Google Search</Description>
+   <InputEncoding>UTF-8</InputEncoding>
+   <OutputEncoding>UTF-8</OutputEncoding>
+
+   <Url type="text/html"
+        xmlns:referrer="http://a9.com/-/opensearch/extensions/referrer/1.0/"
+        template="https://www.google.com/search?q={searchTerms}&amp;sourceid=ie7&amp;rls=com.microsoft:{language}:{referrer:source}&amp;ie={inputEncoding?}&amp;oe={outputEncoding?}" />
+   <Url rel="suggestions"
+        type="application/x-suggestions+xml"
+        template="https://www.google.com/complete/search?client=ie8&amp;q={searchTerms}" />
+
+   <Developer>pinterior.github.io</Developer>
+</OpenSearchDescription>
